@@ -1,0 +1,40 @@
+body {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: helvetica;
+	font-size: 10px;
+	padding: 20px 0 50px 0;
+	text-align: center;
+}
+
+.menu {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+
+#north {
+	background: url(http://fc00.deviantart.net/fs31/i/2010/309/6/c/texture_34_by_sirius_sdz-d1ihrrm.jpg);
+	margin: 0 auto;
+}
+
+#east {
+	background: url(https://cdn.tutsplus.com/photo/uploads/legacy/216_terrifictextures/textures-6.jpg);
+	float: right;
+	margin-right: 100px;
+}
+
+#west {
+	background: url(http://imgs.abduzeedo.com/files/paul0v2/ttt/46/ttt-07.jpg);
+	float: left;
+	margin-left: 100px;
+}
+
+#south {
+	background: url(http://www.webtexture.net/wp-content/uploads/2013/11/6-Colorful-Grungy-Texture-Thumb02.jpg);
+	margin: 0 auto;
+	clear: both;
+}

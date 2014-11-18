@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @book.title %>
+</p>
+
+<p>
+  <strong>Cuisine:</strong>
+  <%= @book.cuisine %>
+</p>
+
+<p>
+  <strong>Chef:</strong>
+  <%= @book.chef %>
+</p>
+
+<p>
+  <img id="scover" src="<%= @book.image %>">
+</p>
+<span class="blink">
+<%= link_to 'Edit', edit_book_path(@book) %></span><br><br>
+<span class="blink"><%= link_to 'Back', books_path %></span>

@@ -1,0 +1,9 @@
+<%= @planes.each do |plane| %>
+	Name: <%= plane.name %> <br>
+	Type: <%= plane.kind %> <br>
+	Description: <%= plane.description %> <br>
+	<a href="planes/<%= plane.id %>">View</a>
+	<br><br>
+<% end %>
+<br>
+<a href='/planes/new'>New</a>

@@ -1,0 +1,104 @@
+body {
+	color: blue;
+	max-width: 500px;
+	margin: 0 auto;
+	background: black;
+	font-family: "Comic Sans MS";
+}
+
+table {
+	padding-top: 30px;
+	margin: 0 auto;
+}
+
+td {
+	border: 3px solid black;
+	border-radius: 10px;
+	height: 100px;
+	width: 100px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+td:hover {
+	opacity: .7;
+
+/*	-webkit-transition: all .5s ease-in-out;
+-moz-transition: all .5s ease-in-out;
+-ms-transition: all .5s ease-in-out;
+-o-transition: all .5s ease-in-out;
+transition: all .5s ease-in-out;*/
+}
+
+h1 {
+	color: white;
+}
+
+/*CARD TYPES*/
+.doge {
+	background: url(http://img4.wikia.nocookie.net/__cb20140911192341/creepypasta/es/images/0/05/Doge.png);
+	background-size: cover;
+}
+
+.sherman {
+	background: url(http://cdn.sheknows.com/articles/2014/01/richard-sherman-instagram.jpg);
+	background-size: cover;
+}
+
+.deal {
+	background: url(http://img1.wikia.nocookie.net/__cb20130822031533/powerlisting/images/0/02/Bach-deal-with-it.jpg);
+	background-size: cover;
+}
+
+.tacos {
+	background: url(http://i.imgur.com/K5wbGoJ.jpg);
+	background-size: cover;
+}
+
+.goldens {
+	background: url(http://i.imgur.com/WlHPxys.jpg);
+	background-size: cover;
+}
+
+.ron {
+	background: url(http://s3-ak.buzzfeed.com/static/campaign_images/webdr02/2013/7/22/0/11-reasons-ron-swanson-is-my-perfect-man-1-20397-1374468746-0_big.jpg);
+	background-size: cover;
+}
+
+.space {
+	background: url(http://obverse.nerdtitan.com/wp-content/uploads/2013/04/Space_Jam_frt.jpg);
+	background-size: cover;
+}
+
+.fiddy {
+	background: url(http://41.media.tumblr.com/tumblr_m66of2gSO71qjnhqgo1_500.jpg);
+	background-size: cover;
+}
+
+.hide {
+	background: #99FFFF;
+	-webkit-transition: all .5s ease-in-out;
+-moz-transition: all .5s ease-in-out;
+-ms-transition: all .5s ease-in-out;
+-o-transition: all .5s ease-in-out;
+transition: all .5s ease-in-out;
+}
+
+.complete {
+	opacity: .7;
+		-webkit-transition: all .5s ease-in-out;
+-moz-transition: all .5s ease-in-out;
+-ms-transition: all .5s ease-in-out;
+-o-transition: all .5s ease-in-out;
+transition: all .5s ease-in-out;
+}
+
+#score {
+	padding: 10px 0 30px 0;
+	color: white;
+}
+
+
+
+
+

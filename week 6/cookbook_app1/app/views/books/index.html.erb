@@ -1,0 +1,35 @@
+<h1>All books</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Cuisine</th>
+      <th>Chef</th>
+      <th>Image</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @books.each do |book| %>
+      <tr>
+        <td class="blist" id="btitle"><%= book.title %></td>
+        <td class="blist"><%= book.cuisine %></td>
+        <td class="blist"><%= book.chef %></td>
+        <td class="blist">
+        <a href="<%= book.image %>" target="_blank"><img id="cover" src="<%= book.image %>"></a>
+        </td>
+        <td class="blist"><span class="blink"><%= link_to 'Show', book %></span></td>
+        <td class="blist"><span class="blink"><%= link_to 'Edit', edit_book_path(book) %></span></td>
+        <td class="blist"><span class="blink" id="delete"><%= link_to 'Destroy', book, method: :delete, data: { confirm: 'Are you sure?' } %></span></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<span class="blink"><%= link_to 'New Book', new_book_path %></span>
+
+<br><br>

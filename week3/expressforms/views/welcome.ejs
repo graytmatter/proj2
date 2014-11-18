@@ -1,0 +1,16 @@
+<h1>Welcome to our page!</h1>
+
+<% allMyUsers.forEach(function(user) { %> 
+	<a href="/user/<%= user.id%>">User page</a>
+	<br>
+	<%="User: "+user.username%>
+	<br>
+	<%="Password: "+user.password%>
+	<br>
+	<%="ID: "+user.id%>
+	<br>
+	<br>
+<% })%>
+
+
+<a href="/">home</a>

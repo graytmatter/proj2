@@ -1,0 +1,75 @@
+body {
+	width: 800px;
+	margin-top: 10px;
+}
+
+.track {
+	position: absolute;
+	background-color: green;
+	height: 485px;
+	width: 30px;
+	margin-left: 70px;
+	border-radius: 10px;
+}
+
+#finish {
+	background-color: red;
+	margin-left: 740px;
+}
+
+.car {
+	position: absolute;
+	height: 40px;
+	width: 65px;
+	background-color: orange;
+	border-radius: 20px;
+	left: 0px;
+	z-index: 10;
+}
+
+#car1 {
+	margin-top: 10px;
+}
+
+#car2 {
+	margin-top: 150px;
+	background-color: purple;
+}
+
+#car3 {
+	margin-top: 290px;
+	background-color: aqua;
+}
+
+#car4 {
+	margin-top: 430px;
+	background-color: navy;
+}
+
+.go {
+	left: 800px;
+/*	-webkit-transition: all 3s linear;
+	-moz-transition: all 3s linear;
+	-ms-transition: all 3s linear;
+	-o-transition: all 3s linear;
+	transition: all 3s linear;*/
+}
+
+button {
+	position: absolute;
+	text-align: center;
+	margin-left: 70px;
+	height: 485px;
+	width: 30px;
+	background: green;
+	border: none;
+	font-size: 26px;
+	border-radius: 10px;
+}
+
+button:hover {
+	background: lime;
+}
+
+
+

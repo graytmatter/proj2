@@ -1,0 +1,14 @@
+{
+  "name": "chai_testing",
+  "version": "1.0.0",
+  "description": "Testing app with Chai",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha -R spec spec/test.js" //the file that it's listening to
+  },
+  "author": "emmy",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^1.9.2"
+  }
+}

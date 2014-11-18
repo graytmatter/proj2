@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Blog</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script language="javascript" type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+	<h1>New Post</h1>
+
+	<form action="/posts" method="post">
+		<input name="post[title]" placeholder="title" value= "<%= title %>"> 
+		<input name="post[author]" placeholder="author" value = "<%= author %>">
+		<input type="submit" value="Save">
+	</form>
+
+
+</body>
+
+</html>

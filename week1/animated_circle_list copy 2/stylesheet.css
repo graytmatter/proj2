@@ -1,0 +1,48 @@
+body {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: helvetica;
+	font-size: 10px;
+	padding: 20px 0 50px 0;
+	text-align: center;
+}
+
+#container {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	border: dashed 1px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.imenu {
+	display: block;
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	margin-top: -50px;
+	margin-left: -50px;
+}
+
+#inorth {
+	transform: rotate(270deg) translate(150px);
+}
+
+#ieast {
+	transform: translate(150px);
+}
+
+#iwest {
+	transform: rotate(180deg) translate(150px);
+}
+
+#isouth {
+	transform: rotate(90deg) translate(150px);
+}

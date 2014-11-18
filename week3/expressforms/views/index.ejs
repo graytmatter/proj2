@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script language="javascript" type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+
+	<!-- form action somehow tells page to go to url/signup when submit is clicked. method allows us to use bodyParser-->
+	<form action='/signup' id='signup' method="POST"> 
+	<p>
+		<label for="username">Username: </label> 
+		<!-- label for= must be the same as input id= -->
+		<input type='text' name='user[username]' id='username'>
+	</p>
+	<p>
+		<label for="password">Password: </label>
+		<input type='password' name='user[password]' id="password">
+	</p>
+		<input type='submit' value='Sign up'>
+	</form>
+<!-- the "name" attributes make it so that username and password are passed back within one item 'user' -->
+
+</body>
+</html>

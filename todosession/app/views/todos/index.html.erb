@@ -1,0 +1,22 @@
+<h1>To Do</h1>
+
+
+<% @todos.each do |todo| %>
+    <%= todo %>
+  	
+	<br><br>
+
+<% end %>
+
+
+   <%= form_tag(todos_path) do %>
+     <p>
+      <%= label_tag(:task) %>
+      <%= text_field_tag(:task, nil, autofocus: true) %>
+    </p>
+     <%= submit_tag "Add"%>
+  <% end %>
+
+
+  <%= button_to 'Delete All', nil, :method => :delete %>
+

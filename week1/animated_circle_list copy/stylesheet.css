@@ -1,0 +1,45 @@
+body {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: helvetica;
+	font-size: 10px;
+	padding: 20px 0 50px 0;
+	text-align: center;
+}
+
+/*.menu {
+	position: relative;
+	display: inline-block;
+	overflow: visible;
+	z-index: 1;
+}*/
+
+.imenu {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+}
+
+#north {
+	margin: 0 auto;
+}
+
+#east {
+	float: right;
+	margin-right: 100px;
+}
+
+#west {
+	float: left;
+	margin-left: 100px;
+}
+
+#south {
+	margin: 0 auto;
+	clear: both;
+}

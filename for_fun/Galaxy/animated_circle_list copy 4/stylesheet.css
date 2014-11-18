@@ -1,0 +1,96 @@
+body {
+	max-width: 500px;
+	margin: 0 auto;
+	background-image: url(http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Night-sky-milky-way-galaxy-astrophotography_-_West_Virginia_-_ForestWander.jpg/1024px-Night-sky-milky-way-galaxy-astrophotography_-_West_Virginia_-_ForestWander.jpg);
+	background-position: cover;
+}
+
+h1 {
+	font-family: helvetica;
+	font-size: 15px;
+	padding: 20px 0 100px 0;
+	text-align: center;
+	color: white;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#container {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.imenu {
+	display: block;
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin-top: -50px;
+	margin-left: -50px;
+	opacity: .7;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+#inorth {
+	left: 50%;
+}
+
+#ieast {
+	top: 50%;
+	left: 100%;
+}
+
+#iwest {
+	top: 50%;
+}
+
+#isouth {
+	top: 100%;
+	left: 50%;
+}
+
+#ine {
+	left: 85%;
+	top: 15%;
+}
+
+#ise {
+	left: 85%;
+	top: 85%;
+}
+
+#isw {
+	left: 15%;
+	top: 85%;
+}
+
+#inw {
+	left: 15%;
+	top: 15%;
+}
+
+.imenu:hover {
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+/*	transition: width 150px, height 150px, tranform 2s;*/
+	width: 150px;
+	height: 150px;
+	margin-left: -75px;
+	margin-top: -75px;
+	z-index: 1;
+	opacity: 1;
+	box-shadow: 0px 0px 100px #E8E8E8;
+}
+
+
+
